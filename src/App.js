@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './Components/Header'
+import Tell from './Components/Tell'
+import Featured from './Components/Featured'
+import Integer from './Components/Integer'
+import LongTerm from './Components/LongTerm'
+import Developments from './Components/Developments'
+import Star from './Components/Star'
+import Success from './Components/Success'
+import Footer from './Components/Footer'
+import WordPress from './Components/WordPress '
+import BackToTop from './Components/BackToTop'
+import PreLoder from './Components/PreLoder'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden'>
+    <PreLoder/>
+    <BackToTop/>
+    <Header/>
+    <Tell/>
+    <Featured/>
+    <Integer/>
+    <WordPress/>
+    <LongTerm/>
+    <Developments/>
+    <Star/>
+    <Success/>
+    <Footer/>
+   
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
