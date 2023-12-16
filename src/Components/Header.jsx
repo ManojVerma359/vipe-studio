@@ -226,7 +226,7 @@ const Header = () => {
 
         <div className="container mx-auto sm:py-24 md:py-36 py-16 flex flex-wrap px-3">
           <div className="xl:w-[50%] w-[100%]">
-            <h1 className="text-white md:text-[72px] sm:text-[60px] text-[38px] ff_use leading-[106%] font-light">
+            <h1 className="text-white md:text-[72px] sm:text-[60px] text-[38px] z-20   ff_use leading-[106%] font-light after:absolute after:w-[4px] after:h-[100%]  after:top-0 after:left-[-2%] after:bg-[#6022EA] relative">
               WordPress <span className="md:flex md:block ff_use">Development</span>{" "}
               Agency
             </h1>

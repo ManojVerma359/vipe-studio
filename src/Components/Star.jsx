@@ -32,6 +32,7 @@ const Star = () => {
         <img className="w-[790px] hover:scale-[100.5%] duration-300 transition-all ease-linear" src={three_person} alt="#id" />
 
         </div>
+        
       </div>
     </div>
   );

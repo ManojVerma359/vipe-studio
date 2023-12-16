@@ -268,12 +268,27 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-wrap   gap-[17px]">
-         <span className="hover:scale-125 cursor-pointer duration-300"> <CatIcon /></span>
-          <span className="hover:scale-125 cursor-pointer duration-500"><Linkdin /></span>
-          <span className="hover:scale-125 cursor-pointer duration-700" ><Twitter /></span>
-         <span className="hover:scale-125 cursor-pointer duration-1000"> <Facebook /></span>
-          <span className="hover:scale-125 cursor-pointer duration-300" ><Instagram /></span>
-         <span className="hover:scale-125 cursor-pointer duration-500"> <Wikipedia /></span>
+          <span className="hover:scale-125 cursor-pointer duration-300">
+            {" "}
+            <CatIcon />
+          </span>
+          <span className="hover:scale-125 cursor-pointer duration-500">
+            <Linkdin />
+          </span>
+          <span className="hover:scale-125 cursor-pointer duration-700">
+            <Twitter />
+          </span>
+          <span className="hover:scale-125 cursor-pointer duration-1000">
+            {" "}
+            <Facebook />
+          </span>
+          <span className="hover:scale-125 cursor-pointer duration-300">
+            <Instagram />
+          </span>
+          <span className="hover:scale-125 cursor-pointer duration-500">
+            {" "}
+            <Wikipedia />
+          </span>
         </div>
       </div>
     </div>
